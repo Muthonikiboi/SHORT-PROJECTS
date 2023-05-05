@@ -1,0 +1,43 @@
+*
+{
+    padding:0;
+    font-family: poppins,sans-serif;
+    margin:0;
+}
+
+body
+{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100h;
+    background: aliceblue;
+}
+.wrapper{
+    display: grid;
+    height: 98vh;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .carousel1
+{
+    white-space: nowrap;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carousel1 img
+{
+    margin-left: 14px;
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% /3);
+}
+
+.carousel1 img:first-child
+{
+    margin-left: 0px;
+}
+
+

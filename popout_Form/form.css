@@ -118,7 +118,7 @@
     color: orangered;
 }
 
-.popup-container.active
+.active.popup-container
 {
     visibility: hidden;
 }

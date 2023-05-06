@@ -44,7 +44,7 @@
 
  .active.container
  {
-    fill: blur(5px) brightness(.7);
+    filter: blur(5px) brightness(.7);
  }
 
  .popup-container
@@ -65,6 +65,7 @@
     background-attachment: fixed;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    transition:0.7s;
  }
 
  h4
@@ -109,9 +110,15 @@
     position: absolute;
     right: 20px;
     cursor: pointer;
+    color: white;
 }
 
 .close-icon:hover
 {
     color: orangered;
+}
+
+.popup-container.active
+{
+    visibility: hidden;
 }

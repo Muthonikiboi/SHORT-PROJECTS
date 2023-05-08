@@ -1,0 +1,37 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  button {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  #cartItems, #searchResults, #filteredProducts {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #cartItems h2, #searchResults h2, #filteredProducts h2 {
+    margin-bottom: 10px;
+  }
+  
+  #cartItems ul, #searchResults ul, #filteredProducts ul {
+    padding-left: 20px;
+  }
+  
+  #cartItems li, #searchResults li, #filteredProducts li {
+    list-style-type: none;
+  }
+  

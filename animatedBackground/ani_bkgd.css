@@ -68,6 +68,7 @@ h2{
     animation: animate 12s linear infinite;
 }
 
+
 .box div:nth-child(7){
     top: 60%;
     left: 80%;

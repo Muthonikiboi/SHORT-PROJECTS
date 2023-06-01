@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flipbook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <input type="checkbox" id="checkbox-cover">
+    <input type="checkbox" id="checkbox-page1">
+    <input type="checkbox" id="checkbox-page2">
+    <input type="checkbox" id="checkbox-page3">
+    <div class="book">
+        <div class="cover">
+            <label for="checkbox-cover"></label>
+        </div>
+
+
+
+
+        <div class="page" id="page1">
+            <div class="front-page">
+                <p>
+                    Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved. It originally comes from a Latin text, but to today's reader, it's seen as gibberish.
+                </p>
+                <label class="next" for="checkbox-page1"><i class="fa fa-chevron-right" aria-hidden="true"></i></label>
+            </div>
+
+
+            <div class="back-page">
+            <img src="../images/cute.jpeg" alt="">
+            <label class="prev" for="checkbox-page1"><i class="fa fa-chevron-left" aria-hidden="true"></i></label>
+            </div>
+        </div>
+
+
+
+        
+
+
+
+
+
+        <div class="page" id="page2">
+            <div class="front-page">
+                <h2>Page 2</h2>
+                <p>
+                    Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved. It originally comes from a Latin text, but to today's reader, it's seen as gibberish.
+                </p>
+                <label class="next" for="checkbox-page1"><i class="fa fa-chevron-left" aria-hidden="true"></i></label>
+            </div>
+
+           <div class="back-page">
+            <img src="../images/cute.jpeg" alt="">
+            <label class="prev" for="checkbox-page2"><i class="fa fa-chevron-left" aria-hidden="true"></i></label>
+           </div> 
+        </div>
+
+
+        
+
+
+
+        <div class="page" id="page3">
+            <div class="front-page">
+                <h2>Page 3</h2>
+                <p>
+                    Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved. It originally comes from a Latin text, but to today's reader, it's seen as gibberish.
+                </p>
+                <label class="next" for="checkbox-page1"><i class="fa fa-chevron-left" aria-hidden="true"></i></label>
+            </div>
+        </div>
+
+
+
+        <div class="back-cover"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust the width and height to fit your image */
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover img {
+    animation: bounce 1s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      transform: translateX(200px) translateY(0);
+    }
+    50% {
+      transform: translateX(200px) translateY(200px);
+    }
+    75% {
+      transform: translateX(0) translateY(200px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  

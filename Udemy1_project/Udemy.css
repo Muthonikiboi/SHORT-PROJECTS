@@ -7,10 +7,15 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
 }
 
 .heading{
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(rgba(255,0,0,0.6),rgba(238,130,238,0.6));
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,#2b8909ed,#12db98),url(../images/cute.jpeg);
+    background-size: cover;
+    background-position: top;
 }
